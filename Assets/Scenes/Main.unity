@@ -560,6 +560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poli: {fileID: 1155605946958172, guid: 0658ab9eeaece7349b76d93dcc8b2030, type: 2}
+  piso: {fileID: 1207653013}
   scoreText: {fileID: 1727076948}
 --- !u!4 &516873404
 Transform:
