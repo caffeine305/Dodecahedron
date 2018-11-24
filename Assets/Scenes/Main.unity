@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.792165, g: 0.6157069, b: 0.5046723, a: 1}
+  m_IndirectSpecularColor: {r: 0.78536737, g: 0.60178363, b: 0.5008228, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -343,6 +343,14 @@ Prefab:
       propertyPath: m_CastShadows
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 377b9f1dafcf8fb4aaf849f3e26c1563, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 377b9f1dafcf8fb4aaf849f3e26c1563, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 377b9f1dafcf8fb4aaf849f3e26c1563, type: 3}
   m_IsPrefabParent: 0
@@ -465,14 +473,14 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 1, g: 0.82635504, b: 0.031372547, a: 1}
-  m_Intensity: 0.75
+  m_Color: {r: 1, g: 0.60887843, b: 0.031372547, a: 1}
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
     m_Type: 1
-    m_Resolution: 0
+    m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
     m_Bias: 0.15
@@ -529,7 +537,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!135 &282840812
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -584,13 +592,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
-  m_LocalRotation: {x: 0.2461532, y: 0, z: 0, w: 0.96923095}
+  m_LocalRotation: {x: 0.23344536, y: 0, z: 0, w: 0.97236997}
   m_LocalPosition: {x: 0, y: 20, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 28.5, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 27, y: 0, z: 0}
 --- !u!1001 &344094372
 Prefab:
   m_ObjectHideFlags: 0
@@ -645,6 +653,14 @@ Prefab:
     - target: {fileID: 2300000, guid: 377b9f1dafcf8fb4aaf849f3e26c1563, type: 3}
       propertyPath: m_CastShadows
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 377b9f1dafcf8fb4aaf849f3e26c1563, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 377b9f1dafcf8fb4aaf849f3e26c1563, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 377b9f1dafcf8fb4aaf849f3e26c1563, type: 3}
@@ -810,6 +826,14 @@ Prefab:
       propertyPath: m_CastShadows
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 377b9f1dafcf8fb4aaf849f3e26c1563, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 377b9f1dafcf8fb4aaf849f3e26c1563, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 377b9f1dafcf8fb4aaf849f3e26c1563, type: 3}
   m_IsPrefabParent: 0
@@ -959,8 +983,8 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
+  m_Convex: 0
+  m_CookingOptions: 2
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1207653015
@@ -975,7 +999,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 8a0a56839ee9caf49a8e3e0de6e5ee34, type: 2}
@@ -1323,7 +1347,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 22, y: -13}
+  m_AnchoredPosition: {x: 13.570007, y: -6.6900024}
   m_SizeDelta: {x: 1423, y: 1278.7001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!102 &1727076950
@@ -1335,7 +1359,7 @@ TextMesh:
   m_GameObject: {fileID: 1727076948}
   m_Text: 'Count:'
   m_OffsetZ: 0
-  m_CharacterSize: 16
+  m_CharacterSize: 14
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
@@ -1358,8 +1382,8 @@ MeshRenderer:
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 0
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
