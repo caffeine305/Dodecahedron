@@ -84,7 +84,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 0
+  m_ReflectionProbeUsage: 3
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 89ed62045e757d7469798f3ecdfd8f7e, type: 2}
