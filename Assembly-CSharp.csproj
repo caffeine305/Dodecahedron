@@ -55,11 +55,11 @@
   <ItemGroup>
      <Compile Include="Assets\Respawn.cs" />
      <Compile Include="Assets\Spawn.cs" />
- <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Ricardo/Documents/GitHub/Dodecahedron/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Ricardo/Documents/GitHub/Dodecahedron/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/Ricardo/Documents/GitHub/Dodecahedron/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>C:/Users/Ricardo/Documents/GitHub/Dodecahedron/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
